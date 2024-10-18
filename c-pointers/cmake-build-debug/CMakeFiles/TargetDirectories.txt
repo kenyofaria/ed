@@ -1,0 +1,3 @@
+/Users/kenyofaria/ifg/ed/c-examples/c-pointers/cmake-build-debug/CMakeFiles/c_pointers.dir
+/Users/kenyofaria/ifg/ed/c-examples/c-pointers/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/kenyofaria/ifg/ed/c-examples/c-pointers/cmake-build-debug/CMakeFiles/rebuild_cache.dir

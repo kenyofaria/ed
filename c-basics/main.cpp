@@ -36,9 +36,12 @@ void printDouble() {
     printf("the double (exponential) number is: %lf\n", exponential);
 }
 void printCharacter() {
-    char character = 'K';
-    printf("the character as a char is: %c\n", character);
-    printf("the character as a int is: %d\n", character);
+    char minusChar = 'k';
+    char capitalChar = 'K';
+    printf("the character as a char is: %c\n", minusChar);
+    printf("the character as a int is: %d\n", minusChar);
+    printf("the character as a char is: %c\n", capitalChar);
+    printf("the character as a int is: %d\n", capitalChar);
 }
 void printSizeOf() {
     int intNumber = 10;
@@ -59,8 +62,12 @@ void printSetOfChars() {
     char n = 'n';
     char y = 'y';
     char o = 'o';
-    printf("%c %c %c %c %c\n", k, e, y, n, o);
-    printf("%c%c%c%c%c\n", k, e, y, n, o);
+    printf("%c %c %c %c %c\n", k, e, n, y, o);
+    printf("%c%c%c%c%c\n", k, e, n, y, o);
+}
+
+void printChosenOption(int option) {
+    printf("option chosen was: %d \n", option);
 }
 
 void prompt() {
@@ -73,13 +80,13 @@ void prompt() {
                 printf("leaving the program");
                 return;
             case 1:
-                printf("option chosen was: %d \n", command);
+                printChosenOption(command);
                 break;
             case 2:
-                printf("option chosen was: %d \n", command);
+                printChosenOption(command);
                 break;
             case 3:
-                printf("option chosen was: %d \n", command);
+                printChosenOption(command);
                 break;
             default:
                 printf("invalid option: %d \n", command);
