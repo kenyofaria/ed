@@ -1,25 +1,40 @@
 #include <stdio.h>
 
-struct student {
-    char* registerNumer;
+struct Student {
+    char* registerNumber;
     char* name;
 };
 
-int main(){
+typedef struct {
+    char* registerNumber;
+    char* name;
+} Professor;
 
-    student studentA;
-    studentA.registerNumer = "20240190";
+void studentExample() {
+    printf("\n--------------------Student Example--------------------\n");
+    Student studentA;
+    studentA.registerNumber = "20240190";
     studentA.name = "John";
 
-    student studentB = {"20240191", "Ryan"};
+    Student studentB = {"20240191", "Ryan"};
 
-    printf("Data from student A: %s \t %s\n", studentA.registerNumer, studentA.name);
-    printf("Data from student B: %s \t %s\n", studentB.registerNumer, studentB.name);
+    printf("Data of student A: %s \t %s\n", studentA.registerNumber, studentA.name);
+    printf("Data of student B: %s \t %s\n", studentB.registerNumber, studentB.name);
 
     printf("\n\n Now we are making a copy of a struct \n");
 
-    struct student copyFromStydentA = studentA;
+    struct Student copyFromStydentA = studentA;
 
-    printf("Data from the backup of the student A: %s \t %s\n", copyFromStydentA.registerNumer, copyFromStydentA.name);
+    printf("Data from the backup of the student A: %s \t %s\n", copyFromStydentA.registerNumber, copyFromStydentA.name);
+}
 
+void professorExample() {
+    printf("\n--------------------Professor Example--------------------\n");
+    Professor professorA = {"45625232", "Kenyo"};
+    printf("Data of professor A: %s \t %s\n", professorA.registerNumber, professorA.name);
+}
+
+int main() {
+    studentExample();
+    professorExample();
 }

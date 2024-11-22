@@ -1223,8 +1223,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/Users/kenyofaria/ifg/ed/c-examples/c-basics/cmake-build-debug",
-		"source" : "/Users/kenyofaria/ifg/ed/c-examples/c-basics"
+		"build" : "/Users/kenyofaria/ifg/ed/c-examples/c-recursive/cmake-build-debug",
+		"source" : "/Users/kenyofaria/ifg/ed/c-examples/c-recursive"
 	},
 	"version" : 
 	{

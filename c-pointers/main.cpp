@@ -48,16 +48,16 @@ void arrayExample3() {
     *arrayPtr = 10;
     printf("First position updated:\n");
     printIntArray(array, size);
-    *(arrayPtr+1)=11;
+    *(arrayPtr+3)=11;
     printf("Second position updated:\n");
     printIntArray(array, size);
 }
 
 int main() {
-    pointerExample1();
-    arrayExample1();
-    arrayExample2();
-    arrayExample3();
+    //pointerExample1();
+    //arrayExample1();
+    //arrayExample2();
+    //arrayExample3();
     // int n = 9;
     // printf("bit wise \n%d", n << 1);
 }

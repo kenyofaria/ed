@@ -3,9 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeProjectFlavorService">
     <option name="flavorId" value="CMakePlainProjectFlavor" />
   </component>
@@ -13,7 +13,9 @@
     <option name="reloaded" value="true" />
   </component>
   <component name="CMakeRunConfigurationManager">
-    <generated />
+    <generated>
+      <config projectName="c_basics" targetName="c_basics" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -21,7 +23,31 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80557495-f6e2-4de5-8fb7-deda78f874e1" name="Changes" comment="" />
+    <list default="true" id="80557495-f6e2-4de5-8fb7-deda78f874e1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-30bc14834bdb75a9ad7f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-10-17T18-57-36-0214.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c-pointers/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../c-pointers/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c-pointers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../c-pointers/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c-pointers/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../c-pointers/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c-pointers/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../c-pointers/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c-pointers/cmake-build-debug/CMakeFiles/c_pointers.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../c-pointers/cmake-build-debug/CMakeFiles/c_pointers.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c-pointers/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../c-pointers/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c-pointers/cmake-build-debug/c_pointers" beforeDir="false" afterPath="$PROJECT_DIR$/../c-pointers/cmake-build-debug/c_pointers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c-pointers/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../c-pointers/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c-structs/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../c-structs/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c-structs/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../c-structs/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c-structs/cmake-build-debug/CMakeFiles/c_structs.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../c-structs/cmake-build-debug/CMakeFiles/c_structs.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c-structs/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../c-structs/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c-structs/cmake-build-debug/c_structs" beforeDir="false" afterPath="$PROJECT_DIR$/../c-structs/cmake-build-debug/c_structs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c-structs/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../c-structs/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,9 +66,9 @@
     <option name="minorVersion" value="2.2" />
     <option name="productBranch" value="Classic" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2nZrUZ833LTGl0N6CmItV22rb2K" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -57,19 +83,20 @@
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="c_basics" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="c_basics" TARGET_NAME="c_basics" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c_basics" RUN_TARGET_NAME="c_basics">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -82,6 +109,9 @@
       <option name="presentableId" value="Default" />
       <updated>1729191455520</updated>
       <workItem from="1729191456676" duration="5205000" />
+      <workItem from="1729965096808" duration="1629000" />
+      <workItem from="1731593155995" duration="1905000" />
+      <workItem from="1732235756866" duration="18000" />
     </task>
     <servers />
   </component>
