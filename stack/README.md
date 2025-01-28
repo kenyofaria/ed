@@ -2,6 +2,7 @@
 
 1. Ordered Collection: Elements in a stack are arranged in a specific order.
 <br><br>
+
 2. LIFO Principle: The core principle of a stack is that the last element added is the first one to be removed. Imagine a stack of plates; you always take the top plate, which was the last one placed.
 <br><br>
 3. Restricted Access:  Access to elements within the stack is limited. You can only interact with the element at the top of the stack.
