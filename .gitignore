@@ -1,13 +1,38 @@
-*/.idea/
-*/*.txt
+# IDE files
+.idea/
+*.iml
+
+# Build directories
+cmake-build-*/
+build/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+
+# Executables and binaries
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Object files
+*.o
+*.obj
+
+# Text files
 *.txt
-cmake-build-debug/
-*/cmake-build-debug/
-c-examples/c-basics/.idea
-c-basics/.idea/
-c-basics/cmake-build-debug
-c-pointers/.idea/editor.xml
-c-pointers/.idea/misc.xml
-c-pointers/cmake-build-debug/CMakeFiles/clion-Debug-log.txt
-stack/cmake-build-debug/
-stack/cmake-build-debug/*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
