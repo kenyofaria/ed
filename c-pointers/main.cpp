@@ -1,3 +1,4 @@
+#include <cstdlib>
 #include <stdio.h>
 
 void pointerExample1() {
@@ -53,11 +54,92 @@ void arrayExample3() {
     printIntArray(array, size);
 }
 
+
+void pointerToArrayExample1() {
+    printf("\n pointer to array example 1:\n");
+    int numbers[5] = {1,3,5,7,9};
+    int size = sizeof(numbers)/sizeof(int);
+    for (int i = 0; i < size; i++) {
+        printf("index: %d -> value: %d -> address %p\n", i, numbers[i], numbers + i);
+    }
+}
+void pointerToArrayExample2() {
+    printf("\n pointer to array example 2:\n");
+    int numbers[5] = {1,3,5,7,9};
+    int size = sizeof(numbers)/sizeof(int);
+    for (int i = 0; i < size; i++) {
+        printf("index: %d -> value: %d -> address %p\n", i, *(numbers + i), numbers + i);
+    }
+}
+
+void addValueToArrayExample1(int* array, int size, int value) {
+    for (int i = 0; i < size; i++) {
+        array[i] = value;
+    }
+}
+
+void addValueToArrayExample2(int** array, int size, int value) {
+    *array = (int*) malloc(sizeof(int));
+    for (int i = 0; i < size; i++) {
+        (*array) [i] = value;
+    }
+}
+
+void pointerToPointerExample2() {
+    printf("\n----------------- pointer to pointer to pointer example 2:\n");
+    int values[] = {}; //asking for a heap space
+    int *array = values; //allocating more space in the heap, to store pointer address
+    int size = (sizeof(values)/sizeof(int))+1; //also, size is in the heap
+    addValueToArrayExample2(&array, size, 10);
+    for (int i = 0; i < size; i++) {
+        printf("%d ", array[i]);
+    }
+
+    size = (sizeof(values)/sizeof(int))+1;
+    addValueToArrayExample2(&array, size, 15);
+
+    for (int i = 0; i < size; i++) {
+        printf("%d ", array[i]);
+    }
+}
+void pointerToPointerExample1() {
+    printf("\n----------------- pointer to pointer to pointer example 1:\n");
+    int values[] = {}; //asking for a stack space
+    int *array = values; //allocating more space in the stack, to store pointer address
+    int size = (sizeof(values)/sizeof(int))+1; //also, size is in the stack
+    addValueToArrayExample1(array, size, 10);
+    for (int i = 0; i < size; i++) {
+        printf("%d ", array[i]);
+    }
+
+    size = (sizeof(values)/sizeof(int))+1;
+    addValueToArrayExample1(array, size, 15);
+
+    for (int i = 0; i < size; i++) {
+        printf("%d ", array[i]);
+    }
+
+    size = (sizeof(values)/sizeof(int))+1;
+    addValueToArrayExample1(array, size, 17);
+
+    for (int i = 0; i < size; i++) {
+        printf("%d ", array[i]);
+    }
+}
+
 int main() {
     //pointerExample1();
     //arrayExample1();
     //arrayExample2();
     //arrayExample3();
+
+    //pointerToArrayExample1();
+    // pointerToArrayExample2();
+
+    //pointerToPointerExample1();
+    pointerToPointerExample2();
+
     // int n = 9;
     // printf("bit wise \n%d", n << 1);
+    return 0;
 }
