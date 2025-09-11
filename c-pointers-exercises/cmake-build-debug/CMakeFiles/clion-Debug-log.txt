@@ -1,1 +1,0 @@
-CMakeLists.txt not found in /Users/kenyofaria/ifg/ed/c-examples/c-pointers-exercises Select CMakeLists.txt

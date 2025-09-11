@@ -1,3 +1,0 @@
-/Users/kenyofaria/ifg/ed/c-examples/c-recursive-exercises/cmake-build-debug/CMakeFiles/c_recursive_exercises.dir
-/Users/kenyofaria/ifg/ed/c-examples/c-recursive-exercises/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/kenyofaria/ifg/ed/c-examples/c-recursive-exercises/cmake-build-debug/CMakeFiles/rebuild_cache.dir
