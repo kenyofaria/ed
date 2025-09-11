@@ -1,3 +1,8 @@
+*/.idea/
+*/*.txt
+*.txt
+cmake-build-debug/
+*/cmake-build-debug/
 c-examples/c-basics/.idea
 c-basics/.idea/misc.xml
 c-pointers/.idea/misc.xml
