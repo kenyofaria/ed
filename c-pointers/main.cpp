@@ -26,8 +26,8 @@ void arrayExample1() {
 
 void arrayExample2() {
     printf("\n\n --------------------- array example 2 ----------------------\n");
-    char string[] = "data structure";
-    char *stringPtr = string;
+    char vetor[] = "data structure";
+    char *stringPtr = vetor;
     while (*stringPtr != '\0'){
         printf("%c\n", *stringPtr);
         stringPtr++;
@@ -39,6 +39,7 @@ void printIntArray(int* arr, int size) {
         printf("%d ", arr[i]);
     }
 }
+
 void arrayExample3() {
     printf("\n\n --------------------- array example 3 ----------------------\n");
     int array[5] = {1,2,3,4,5};
@@ -50,21 +51,21 @@ void arrayExample3() {
     printf("First position updated:\n");
     printIntArray(array, size);
     *(arrayPtr+3)=11;
-    printf("Second position updated:\n");
+    printf("Other position updated:\n");
     printIntArray(array, size);
 }
 
-
 void pointerToArrayExample1() {
-    printf("\n pointer to array example 1:\n");
+    printf("\n\n\n pointer to array example 1:\n");
     int numbers[5] = {1,3,5,7,9};
     int size = sizeof(numbers)/sizeof(int);
     for (int i = 0; i < size; i++) {
         printf("index: %d -> value: %d -> address %p\n", i, numbers[i], numbers + i);
     }
 }
+
 void pointerToArrayExample2() {
-    printf("\n pointer to array example 2:\n");
+    printf("\n\n\n pointer to array example 2:\n");
     int numbers[5] = {1,3,5,7,9};
     int size = sizeof(numbers)/sizeof(int);
     for (int i = 0; i < size; i++) {
@@ -79,14 +80,16 @@ void addValueToArrayExample1(int* array, int size, int value) {
 }
 
 void addValueToArrayExample2(int** array, int size, int value) {
-    *array = (int*) malloc(sizeof(int));
+    *array = (int*) malloc(sizeof(int)); //using heap
+    printf("address from array: %p \n", array); //pointer address in stack
+    printf("address from where array points: %p", *array); //pointer target in heap
     for (int i = 0; i < size; i++) {
         (*array) [i] = value;
     }
 }
 
-void pointerToPointerExample2() {
-    printf("\n----------------- pointer to pointer to pointer example 2:\n");
+void addArrayItemUsingPointerExample2() {
+    printf("\n\n\n----------------- add array element by using pointer - example 2:\n");
     int values[] = {}; //asking for a heap space
     int *array = values; //allocating more space in the heap, to store pointer address
     int size = (sizeof(values)/sizeof(int))+1; //also, size is in the heap
@@ -102,8 +105,9 @@ void pointerToPointerExample2() {
         printf("%d ", array[i]);
     }
 }
-void pointerToPointerExample1() {
-    printf("\n----------------- pointer to pointer to pointer example 1:\n");
+
+void addArrayItemUsingPointerExample1() {
+    printf("\n\n\n----------------- add array element by using pointer - example 1:\n");
     int values[] = {}; //asking for a stack space
     int *array = values; //allocating more space in the stack, to store pointer address
     int size = (sizeof(values)/sizeof(int))+1; //also, size is in the stack
@@ -128,16 +132,16 @@ void pointerToPointerExample1() {
 }
 
 int main() {
-    //pointerExample1();
-    //arrayExample1();
-    //arrayExample2();
-    //arrayExample3();
+    pointerExample1();
+    arrayExample1();
+    arrayExample2();
+    arrayExample3();
 
-    //pointerToArrayExample1();
-    // pointerToArrayExample2();
+    pointerToArrayExample1();
+    pointerToArrayExample2();
 
-    //pointerToPointerExample1();
-    pointerToPointerExample2();
+    addArrayItemUsingPointerExample1();
+    addArrayItemUsingPointerExample2();
 
     // int n = 9;
     // printf("bit wise \n%d", n << 1);
