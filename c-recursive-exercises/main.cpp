@@ -11,6 +11,7 @@ void exercise1() {
    printf("\n the sum is: %d", sum(5));
 }
 
+//where are considering this approach: 1,1,2,3,5,8
 int fibo(int number) {
     if (number <= 1) {
         return number;
@@ -19,7 +20,7 @@ int fibo(int number) {
 }
 
 void exercise2() {
-    printf("\n the fiboo is: %d", fibo(6));
+    printf("\n the fibo is: %d", fibo(6));
 }
 
 int sumDigits(int number) {
